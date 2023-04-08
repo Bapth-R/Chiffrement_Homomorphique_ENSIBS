@@ -1,7 +1,7 @@
 {
     "PORT_SOCKET":5000,
-    "NAME_DATABASE":"rajon.db",
-    "NAME_TABLE":"test_final16",
+    "NAME_DATABASE":"database_ensibs.db",
+    "NAME_TABLE":"database_poc",
     "VERBOSE": false,
 
     "ATTACK_NB":200

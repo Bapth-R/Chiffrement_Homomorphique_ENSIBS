@@ -56,14 +56,13 @@ def wait_key(end:bool=True):
     header()
 
 def start():
-    """
     try:
         #Par souci de simplicité, nous allons faire une requète directement sur la bdd directement coté client afin de créer la database
-        from serveur.init_bdd import create_database
+        from serveur.connect_bdd import create_database
         create_database(DATABASE, VERBOSE)
     except:
         pass
-    """
+
     from serveur.connect_bdd import create_table
     create_table(TABLE_Q31, [("items","text"), ("nombre_ope","VARCHAR(2000)"),("nombre_phe","VARCHAR(2000)"),("exposant_phe","VARCHAR(2000)")],VERBOSE)
     try:

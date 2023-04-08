@@ -2,14 +2,17 @@
 <p align="center">
 <img src="Images/main.png" alt="drawing" width="400"/> 
 </p>
-Ce projet permet de faire du chiffrement homomorphique fait à l'ENSIBS. Dans ce POC, nous allons tester l'order preserving et l'addition. Nous finirons par faire une attaque statistique sur l'order preserving. 
-
+Ce projet permet de faire du chiffrement homomorphe. Il a été fait dans le cadre de mes études à l'ENSIBS. Dans ce POC, nous allons tester l'order preserving et l'addition. Nous finirons par faire une attaque statistique sur l'order preserving. 
+  
 Afin de donner un contexte à ce POC, nous dirons que les informations mises dans la base seront des salaires de différentes personnes.
+
+Sinon, le chiffrement homomorphique est une technique permettant d’effectuer des traitements sur des données chiffrées sans qu’elles soient exposées en clair. L’ordre preserving est une méthode de chiffrement qui permet de conserver l’ordre des données chiffrées.
+
 
 # Dependenes
 Pour que ce POC puisse fonctionner, il faut que le port spécifier dans le fichier de configuration `config.json` soit disponible (base: 5000). C'est grâce à ce port que le client et le serveur vont pouvoir communiquer.
 
-Dans un deuxième temps, il faut que python3 soit installer sur la machine. Pour le développement, nous avons utilisé `Python 3.10.8` sur un macOS 13.1 et `Debian GNU/Linux 11 (bullseye)`
+Dans un deuxième temps, il faut que python3 soit installé sur la machine. Pour le développement, nous avons utilisé `Python 3.10.8` sur un macOS 13.1 et `Debian GNU/Linux 11 (bullseye)`
 
 Pour finir, si votre machine possède internet, les dépendances peuvent être installées en faisant :
 ```shell
@@ -17,7 +20,6 @@ pip3 install -r requirements.txt
 ```
 Il faudra par la suite enlever la ligne : `sys.path.append('libs')` dans les différents fichiers.   
 Cependant, si votre machine ne possède pas internet, les librairies sont deja installé dans le dossier libs. 
-
 
 # Architecture
 Notre projet est architecturé comme l'illustre cet arbre:
