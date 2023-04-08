@@ -1,8 +1,10 @@
-from pyope.ope import OPE, ValueRange
-from phe import paillier
-from dotenv import load_dotenv
 import sys, os
 sys.path.append('libs')
+
+from dotenv import load_dotenv
+from pyope.ope import OPE, ValueRange
+from phe import paillier
+
 sys.path.append(os.getcwd())
 load_dotenv("Config/.env")
 
