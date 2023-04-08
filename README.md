@@ -9,8 +9,8 @@ Afin de donner un contexte à ce POC, nous dirons que les informations mises dan
 Sinon, le chiffrement homomorphique est une technique permettant d’effectuer des traitements sur des données chiffrées sans qu’elles soient exposées en clair. L’ordre preserving est une méthode de chiffrement qui permet de conserver l’ordre des données chiffrées.
 
 
-# Dependenes
-Pour que ce POC puisse fonctionner, il faut que le port spécifier dans le fichier de configuration `config.json` soit disponible (base: 5000). C'est grâce à ce port que le client et le serveur vont pouvoir communiquer.
+# Dependences
+Pour que ce POC puisse fonctionner, il faut que le port spécifié dans le fichier de configuration `config.json` soit disponible (base: 5000). C'est grâce à ce port que le client et le serveur vont pouvoir communiquer.
 
 Dans un deuxième temps, il faut que python3 soit installé sur la machine. Pour le développement, nous avons utilisé `Python 3.10.8` sur un macOS 13.1 et `Debian GNU/Linux 11 (bullseye)`
 
