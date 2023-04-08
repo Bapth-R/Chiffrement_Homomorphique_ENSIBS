@@ -94,6 +94,8 @@ python3 main.py
 
 Il faut simplement suivre le menu pour faire les différentes actions. 
 
+Avant de faire l'attaque, exécuter le fichier preparation_attaque/script_add_in_bdd.py afin de remplir la base de données.
+
 Normalement tout devrait marcher 🙃
 <p align="center">
  <img src="Images/trust_me.gif" width="300"  />
